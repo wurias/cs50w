@@ -1,0 +1,47 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.psets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.psetx {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 85, 103);
+    width: 80px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.psetx:hover {
+    transform: scale(1.05);
+    background-color: rgb(250, 179, 179);
+}
+
+@media only screen and (min-width: 600px){
+    .psets {        
+        width: 600px;        
+    }
+}
