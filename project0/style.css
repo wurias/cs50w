@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column; 
+}
+
+#google_img {
+  margin: 0 auto;
+  width: 272px; 
+}
+
+form {
+  margin: 0 auto; 
+}
+
+.text-area {
+  width: 582px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.459);
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+.btn-pesquisa {
+  width: 135px;
+  margin-right: 5px;
+  height: 35px;
+  border: none;
+  border-radius: 5px; 
+}
+
+.btn-sorte {
+  width: 135px;
+  margin-left: 5px;
+  height: 35px;
+  border: none;
+  border-radius: 5px; 
+}
+
+.btn-pesquisa:hover {
+  border: 1px solid grey; 
+}
+
+.btn-sorte:hover {
+  border: 1px solid grey; 
+}
+
+.buttons {
+  margin: 30px auto;
+  text-align: center; 
+}
