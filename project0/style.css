@@ -1,4 +1,31 @@
-body {
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+header > button {
+  width: 120px;
+  height: 36px;
+  background-color: #4c89e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.container-main {
   display: flex;
   flex-direction: column; 
 }
