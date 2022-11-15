@@ -11,10 +11,17 @@ header ul {
 }
 
 ul li {
-  margin: 0 10px;
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+  
 }
 
-header > button {
+#menu-icon {
+  display: none;
+}
+
+header > ul > li > button {
   width: 120px;
   height: 36px;
   background-color: #4c89e3;
@@ -80,6 +87,27 @@ form {
     
     .text-area {
       width: 300px;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+  
+  header > ul > li > button {
+    width: 67px;
+    height: 24px;
+    font-size: 9px;    
+  }
+
+  ul li {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    padding: 0 13px;
+  }
+
+  #menu-icon {
+    display: block;
   }
        
   }
